@@ -16,12 +16,12 @@ import { logOut } from '../actions'
 import { colors, fonts } from '../theme'
 const { width, height } = Dimensions.get('window')
 
-class Home extends React.Component {
+class Messages extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.homeContainer}>
-          <Text style={styles.welcome}>Home</Text>
+          <Text style={styles.welcome}>Messages</Text>
         </View>
       </View>
     )
@@ -58,5 +58,4 @@ const styles = StyleSheet.create({
 const mapStateToProps = state => ({
   auth: state.auth
 })
-
-export default connect(mapStateToProps)(Home)
+export default connect(mapStateToProps)(Messages)
