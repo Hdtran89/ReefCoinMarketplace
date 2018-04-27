@@ -20,7 +20,7 @@ class Sponsors extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.homeContainer}>
+        <View style={styles.sponsors_container}>
           <Text style={styles.welcome}>Sponsors</Text>
         </View>
       </View>
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flex: 1
   },
-  homeContainer: {
+  sponsors_container: {
     alignItems: 'center'
   },
   welcome: {

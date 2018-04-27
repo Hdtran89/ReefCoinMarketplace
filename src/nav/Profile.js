@@ -61,7 +61,7 @@ class Profile extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.homeContainer}>
+        <View style={styles.profile_container}>
           <Text style={styles.welcome}>Profile</Text>
           <Text onPress={this.logout.bind(this)} style={styles.welcome}>Logout</Text>
         </View>
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flex: 1
   },
-  homeContainer: {
+  profile_container: {
     alignItems: 'center'
   },
   welcome: {

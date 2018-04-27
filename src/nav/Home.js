@@ -20,7 +20,7 @@ class Home extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.homeContainer}>
+        <View style={styles.home_container}>
           <Text style={styles.welcome}>Home</Text>
         </View>
       </View>
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flex: 1
   },
-  homeContainer: {
+  home_container: {
     alignItems: 'center'
   },
   welcome: {

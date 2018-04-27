@@ -20,7 +20,7 @@ class Sell extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.homeContainer}>
+        <View style={styles.sell_container}>
           <Text style={styles.welcome}>Sell</Text>
         </View>
       </View>
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flex: 1
   },
-  homeContainer: {
+  sell_container: {
     alignItems: 'center'
   },
   welcome: {

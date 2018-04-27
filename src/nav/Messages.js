@@ -20,7 +20,7 @@ class Messages extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.homeContainer}>
+        <View style={styles.messages_container}>
           <Text style={styles.welcome}>Messages</Text>
         </View>
       </View>
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flex: 1
   },
-  homeContainer: {
+  messages_container: {
     alignItems: 'center'
   },
   welcome: {
@@ -43,14 +43,6 @@ const styles = StyleSheet.create({
     color: 'rgba(0, 0, 0, .85)',
     marginBottom: 26,
     fontSize: 22,
-    textAlign: 'center'
-  },
-  registration: {
-    fontFamily: fonts.base,
-    color: 'rgba(0, 0, 0, .5)',
-    marginTop: 20,
-    fontSize: 16,
-    paddingHorizontal: 20,
     textAlign: 'center'
   }
 })
